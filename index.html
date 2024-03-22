@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Services | Pleasanton Real Estate | Julie Hansen Partnership</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Services | Pleasanton Real Estate | Julie Hansen Partnership">
+  <meta name="keywords" content="HTML, CSS, JavaScript"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+  body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+  body, html {
+    height: 100%;
+    line-height: 1.8;
+  }
+  .logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 25px;  
+  }
+  .bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(96, 96, 96, 0.5), rgba(96, 96, 96, 0.5)), url("https://images.unsplash.com/photo-1565182999561-18d7dc61c393?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=ey");
+    min-height: 100%;
+  }
+  .bgimg-2 {
+    background-image: url('https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/gihsg13plfsb8xfbzmlf/image-027');
+    min-height: 70%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .bgimg-3 {
+    background-image: url('https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/nhcjbdzbycjvfcks0nqe/image-004');
+    min-height: 70%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .bgimg-4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url('https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/skkve0aqzhkkyiytn92d/work-with-us');
+    min-height: 60%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .bgimg-5 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url('https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/og3ockhby4gghmrdfseo/edited-p-19');
+    min-height: 70%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .bgimg-6 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url('https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/ebvif7iqcx0lcjlvwyuz/edited-page-20');
+    min-height: 70%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .w3-bar .w3-button {
+    padding: 16px;
+  }
+  .huwu {
+    position: relative;
+    width: 50%;
+  }
+  .huwuimg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .huwuover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(36, 36, 36);
+  }
+  .huwu:hover .huwuover {
+    opacity: 1;
+  }
+  .huwutext {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+form {
+  border: 1px solid #f1f1f1;
+  font-family: Arial;
+}
+
+.fcon {
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 5px;
+  margin: 3px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color: #111111;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-dark-grey w3-card" id="myNavbar">
+    <a href="#home" class="w3-hover-dark-grey w3-bar-item w3-button w3-wide"><img src="https://res.cloudinary.com/luxuryp/images/w_960,c_limit,f_auto,q_auto/tprhoiglqzbp9mbu8x8s/jhsereno-light" class="logo"></a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#team" class="w3-bar-item w3-button">MEET THE TEAM</a>
+      <a href="#homes" class="w3-bar-item w3-button">SEARCH FOR HOMES</a>
+      <a href="#comm" class="w3-bar-item w3-button">OUR COMMUNITIES</a>
+      <a href="#val" class="w3-bar-item w3-button">HOME VALUATION</a>
+      <a href="#serv" class="w3-bar-item w3-button">SERVICES</a>
+      <a href="#acrs" class="w3-bar-item w3-button">HOMES ACROSS AMERICA</a>
+      <a href="#testi" class="w3-bar-item w3-button">TESTIMONIALS</a>
+      <a href="#contact" class="w3-bar-item w3-button">CONTACT US</a>
+    </div>
+    <!-- Hide right-floated links SS -->
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+<!-- Sidebar SS -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-large w3-hide-medium" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">MEET THE TEAM</a>
+  <a href="#homes" onclick="w3_close()" class="w3-bar-item w3-button">SEARCH FOR HOMES</a>
+  <a href="#comm" onclick="w3_close()" class="w3-bar-item w3-button">OUR COMMUNITIES</a>
+  <a href="#val" onclick="w3_close()" class="w3-bar-item w3-button">HOME VALUATION</a>
+  <a href="#serv" onclick="w3_close()" class="w3-bar-item w3-button">SERVICES</a>
+  <a href="#acrs" onclick="w3_close()" class="w3-bar-item w3-button">HOMES ACROSS AMERICA</a>
+  <a href="#testi" onclick="w3_close()" class="w3-bar-item w3-button">TESTIMONIALS</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT US</a>
+</nav>
+<!-- Header -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-middle w3-text-white">
+    <div class="w3-center">
+      <h1 class="w3-xxxlarge">SERVICES</h1>
+      <h1 class="w3-xlarge w3-animate-bottom">New place, new possibilities. Let's make it happen together.</h1>
+      <div class="w3-padding-32">
+        <button class="w3-btn w3-large w3-dark-grey w3-hover-light-grey" style="font-weight:900;">Book An Appointment</button>
+      </div>
+    </div>
+  </div> 
+</header>
+<!-- Row Zero -->
+<div class="w3-container w3-center" style="padding-top: 10px;">
+  <div class="w3-half w3-padding-64"style="padding:100px">
+    <h1 class="w3-xxlarge">Comprehensive Marketing Plan</h1>
+    <p class="w3-large">Unlock the full potential of your plan. Our comprehensive marketing toolkit sets you up for success.</p>
+  </div>
+  <div class="w3-half">
+    <img src="https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/hqguvxyyi5jciyrzy35v/page-3" style="max-width: 61%">
+  </div>
+</div>
+<!-- Row One -->
+<div class="w3-row w3-container w3-center" style="padding:16px 16px">
+  <div class="w3-row w3-border">
+    <div class="w3-col m2 w3-center w3-mobile" style="width:20%; padding: 20px;">
+      <img src="https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/rmtn3r5zpsljdsncbwa4/image-007" style="width:70%">
+      <p class="w3-large">Responsive</p>
+      <p>We are available and accessible anytime via our social medias.</p>
+    </div>
+    <div class="w3-col m3 w3-center w3-mobile" style="width:20%; padding: 20px">
+      <img src="https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/ks8ztlvw2b35q5qgs6xn/image-011" style="width:70%">
+      <p class="w3-large">Syndication</p>
+      <p>Partnership with sponsors and investors. We will guide you in entirety.</p>
+    </div>
+    <div class="w3-col m3 w3-center w3-mobile" style="width:20%; padding: 20px">
+      <img src="https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/zr3bugldblvebixagfs1/image-009" style="width:70%">
+      <p class="w3-large">Virtual Tour</p>
+      <p>Let us make your home stand out with a high quality virtual tour.</p>
+    </div>
+    <div class="w3-col m3 w3-center w3-mobile" style="width:20%; padding: 20px;">
+      <img src="https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/dywgmsgzddtcsqxagbwh/image-013" style="width:70%">
+      <p class="w3-large">Photography</p>
+      <p>Beautiful, high-end photography is a central part of our marketing plan for your property.</p>
+    </div>
+    <div class="w3-col m2 w3-center w3-mobile" style="width:20%; padding: 20px;">
+      <img src="https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/qljffx423kswkhh1oyc3/image-081" style="width:70%">
+      <p class="w3-large">Aerial Photography</p>
+      <p>Using our modern drone equipment to produce a quality images and videos.</p>
+    </div>
+  </div>
+</div>
+<!-- Row Two -->
+<div class="w3-row-padding w3-margin-top">
+  <h3 class="w3-center w3-xxlarge">Our Staging Expertise</h3>
+  <p class="w3-center w3-large">Let your home tell its story. We use expert staging to showcase its best features and make buyers feel right at home.</p>
+  <div class="w3-third">
+    <div class="w3-card">
+      <img src="https://res.cloudinary.com/luxuryp/images/w_1280,c_limit,f_auto,q_auto/tvntwvzwsjyi3ndwtpux/image-022" style="width:100%">
+      <div class="w3-container w3-center">
+        <h5 style="font-weight: bold;">Decor Guidance</h5>
+        <h6>Craft a Curated Canvas: Select furniture and decor that reflect your style, guide movement, and create a cohesive atmosphere.</h6>
+      </div>
+    </div>
+  </div>
+  <div class="w3-third">
+    <div class="w3-card">
+      <img src="https://res.cloudinary.com/luxuryp/images/w_1280,c_limit,f_auto,q_auto/axx0whb7xfmlwhvcckrr/image-023" style="width:100%">
+      <div class="w3-container w3-center">
+        <h5 style="font-weight: bold;">Intentional Layout</h5>
+        <h6>Map Your Masterpiece: Arrange furniture to define zones, encourage interaction, and optimize the flow for your desired activities.</h6>
+      </div>
+    </div>
+  </div>
+  <div class="w3-third">
+    <div class="w3-card">
+      <img src="https://res.cloudinary.com/luxuryp/images/w_1280,c_limit,f_auto,q_auto/lpaq7euqjebackcuwsdu/image-024" style="width:100%">
+      <div class="w3-container w3-center">
+        <h5 style="font-weight: bold;">Spatial Harmony</h5>
+        <h6>Balance Beauty & Bliss: Declutter for visual calmness, curate for personality, and prioritize functionality for a space that inspires tranquility.</h6>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Row Three -->
+<div class="w3-row w3-container w3-center" style="padding-top:16px; padding-left:100px; padding-right:100px;">
+  <div class="w3-row">
+    <div class="w3-col m4 w3-center w3-mobile" style="width:50%; padding: 68px;">
+      <h3 class="w3-xlarge">The Hansen Partners Communications Tablet</h3>
+    <p class="w3-large">We've created this amazing tool to keep you informed and connected throughout the selling process. It allows for daily communication and updates on your home's activity, all at your fingertips.</p>
+    </div>
+    <div class="w3-col m8 w3-center w3-mobile" style="width:50%; padding: 20px">
+      <img src="https://res.cloudinary.com/luxuryp/images/w_1280,c_limit,f_auto,q_auto/fuammgjubhjfvgcqleef/edit-image-056" style="max-width: 100%">
+    </div>
+  </div>
+</div>
+<!-- Row Four -->
+<div class="w3-row w3-container" style="padding:0px 100px">
+  <div class="w3-row">
+    <div class="w3-col m8 w3-center w3-mobile" style="width:50%; padding: 20px">
+      <img src="https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/vxnwvueubpgtfzn1k3cs/edited-p25" style="max-width: 55%">
+    </div>
+    <div class="w3-col m4 w3-mobile" style="width:50%; padding: 10px;">
+      <p class="w3-large">Benefits:</p>
+      <UL>
+        <li>Review and sign documents electronically from anywhere.</li>
+        <li>Stay up-to-date in real-time. Access marketing activities, review materials, photos, etc.</li>
+        <li>Schedule face-to-face meetings. Discuss the week's events conveniently via Gotomeeting.com.</li>
+        <li>Dedicated communication channels. Reach us quickly through your personalized email or send a video message using our system.</li>
+      </UL>
+      <p class="w3-large">We believe that transparency and guiding you and your family through the process is key to having the best experience. During these uncertain times, it's a good feeling to know you have someone with a proven track record you can count on. We will be here to handle your needs during the real estate process. We think of it before a need even arises. Because, that's just what we do. Who you work with does matter!</p>
+    </div>
+  </div>
+</div>
+<!-- Row Five -->
+<div class="w3-container w3-center bgimg-2 w3-text-white" style="padding:30px">
+  <span class="w3-jumbo w3-hide-small">The Selling Process</span><br>
+  <span class="w3-xxlarge w3-hide-large w3-hide-medium">The Selling Process</span><br>
+  <span class="w3-xxlarge">1</span><br>
+  <span class="w3-large">INITIAL CONSULTATION & PLANNING</span><br>
+  <span class="w3-xxlarge">2</span><br>
+  <span class="w3-large">DEVISE & EXECUTE MARKETING PLAN</span><br>
+  <span class="w3-xxlarge">3</span><br>
+  <span class="w3-large">REVIEW OFFERS & REACH AGREEMENT WITH BUYER</span><br>
+  <span class="w3-xxlarge">4</span><br>
+  <span class="w3-large">COMPLETE TRANSACTION PROCESS</span><br>
+  <span class="w3-xxlarge">5</span><br>
+  <span class="w3-large">AFTER - SALE SERVICE</span><br>
+</div>
+<!-- Row Six -->
+<div class="w3-container w3-center bgimg-3" style="padding:30px">
+  <div class="w3-black w3-opacity w3-display-container">
+  <span class="w3-jumbo w3-hide-small">The Buying Process</span><br>
+  <span class="w3-xxlarge w3-hide-large w3-hide-medium">The Buying Process</span><br>
+  <span class="w3-xxlarge">1</span><br>
+  <span class="w3-large">INITIAL CONSULTATION & PLANNING</span><br>
+  <span class="w3-xxlarge">2</span><br>
+  <span class="w3-large">SEARCH FOR A HOME & GET PRE-APPROVED</span><br>
+  <span class="w3-xxlarge">3</span><br>
+  <span class="w3-large">SUBMIT AN OFFER</span><br>
+  <span class="w3-xxlarge">4</span><br>
+  <span class="w3-large">COMPLETE SETTLEMENT PROCESS</span><br><br>
+  </div>
+</div>
+<!-- About Us -->
+<div class="w3-container w3-center" style="padding:30px">
+  <h1 class="w3-xxlarge">About Us</h1>
+  <p class="w3-large">Don't settle for just anyone. Get the personalized real estate experience you deserve.</p>
+  <div class="w3-row"><br>
+    <div class="w3-third">
+      <img src="https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/azjfmtzx6evxpubynfci/edit-page-11r2" style="width:70%" class="w3-round w3-hover-opacity">
+      <h3 class="w3-xlarge" style="padding-left:40px;padding-right: 40px;">Over 33 Years of <br> Real Estate Success</h3>
+      <p  style="padding-left:40px;padding-right: 40px;">We provide each of our clients with a level of service they won't find anywhere else. We anticipate their needs and deliver solutions before they even arise. In real estate, almost everything is negotiable. But when you choose Hansen Partners, our experience is absolutely non-negotiable. It's an experience unlike any other.</p>
+    </div>
+    <div class="w3-third">
+      <img src="https://res.cloudinary.com/luxuryp/images/w_1280,c_limit,f_auto,q_auto/ghtq7jtce7tsgdjtosrs/image-025" style="width:100%" class="w3-round w3-hover-opacity">
+      <h3 class="w3-xlarge" style="padding-left:40px;padding-right: 40px;">Building Legacies, <br> Brick by Brick</h3>
+      <p  style="padding-left:40px;padding-right: 40px;">We are passionate about real estate, but even more passionate about helping families achieve their dreams. We offer personalized service, deep local knowledge, and cutting-edge data analysis to give you a competitive edge. We believe in clear communication and building trust, ensuring a smooth and successful real estate journey, every step of the way.</p>
+    </div>
+    <div class="w3-third">
+      <img src="https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/m5ea1kpipv5tiflnfx8t/edited-p-12" style="width:75%" class="w3-round w3-hover-opacity">
+      <h3 class="w3-xlarge" style="padding-left:40px;padding-right: 40px;">We Want To Create An Unforgettable Experience For You</h3>
+      <p  style="padding-left:40px;padding-right: 40px;">We leverage data gained from your home's Comparative Market Analysis with local market research to create a targeted marketing plan to achieve your selling goals. This plan will encompass a range of online, print, and other marketing tools designed to reach the best-qualified pool of buyers.</p>
+    </div>
+  </div>
+</div>
+<!-- Partners  -->
+<div class="w3-row w3-container w3-center" style="padding-top:16px; padding-left:100px; padding-right:100px;">
+  <h1 class="w3-xxlarge">We Market Your Home to The World</h1>
+  <p class="w3-xlarge">Our Online Marketing Strategy</p>
+  <p class="w3-large">The Bay Area remains one of the world's most sought-after regions to live in, and when looking to sell, it is vital that your home be marketed online to audiences locally, nationally, and internationally.</p>
+  
+  <div class="w3-row">
+    <div class="huwu w3-half">
+      <img src="https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/og3ockhby4gghmrdfseo/edited-p-19" class="huwuimg">
+      <div class="huwuover">
+        <div class="huwutext">Leading Real Estate Companies of The World® & Luxury Portfolio International<br><br>
+          JRockcliff is a founding member of Luxury Portfolio International®, the luxury division of Leading Real Estate Companies of the World®. With more than 500 member firms around the world, Our luxury listings are exposed to a vast global audience and reach potential buyers and investors in over 50 countries.</div>
+      </div>
+    </div>
+    <div class="huwu w3-half">
+      <img src="https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/ebvif7iqcx0lcjlvwyuz/edited-page-20" class="huwuimg">
+      <div class="huwuover">
+        <div class="huwutext">Through our international affiliations, we have a strong presence in over 50 countries. Our luxury listings are sent to prominent international real estate sites, reaching over 70 million potential buyers and investors worldwide through our relationships. We also have several well-positioned affiliate offices in China, providing our clients with access to buyers in Hong Kong, Shanghai, and Beijing.</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<div class="w3-row-padding w3-margin-top" style="padding: 10px;">
+  <div class="w3-third">
+    <div class="w3-card">
+      <div class="w3-container w3-center" style="padding: 30px;">
+        <h5 style="font-weight: bold;">Local Exposure</h5>
+        <h6>Through our partnership with Nextdoor, the private online social network now used in over 80% of U.S. neighborhoods and virtually all Bay Area neighborhoods, we make sure your home receives targeted local exposure. When you list your home with Hansen Partners it will automatically appear on Nextdoor in your neighborhood.</h6>
+      </div>
+    </div>
+  </div>
+  <div class="w3-third">
+    <div class="w3-card">
+      <div class="w3-container w3-center" style="padding: 30px;">
+        <h5 style="font-weight: bold;">National Exposure</h5>
+        <h6>We secure strategic positioning and enhancement on Realtor.com, Trulia, and Zillow, driving more consumers to your home and increasing exposure. We will receive every inquiry about your property directly.</h6><br><br><br>
+      </div>
+    </div>
+  </div>
+  <div class="w3-third">
+    <div class="w3-card">
+      <div class="w3-container w3-center" style="padding: 30px;">
+        <h5 style="font-weight: bold;">International Exposure</h5>
+        <h6>To expose your luxury listing to millions of potential homebuyers worldwide, we promote on prominent international real estate portals, including: Wall Street Journal, LuxuryPortfolio.com, LuxuryRealEstate.com, LeadingRE.com, UniqueHomes.com, China.apr.com, Caimeiju, Juwai, Country Life UK</h6><br>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Try Lungs -->
+<!-- Images -->
+<div class="w3-container w3-center" style="padding:30px">
+  <div class="w3-display-container">
+    <img src="https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/p4rjc7oqvxtccrdqejbt/image-060" style="width:160px">
+    <img src="https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/ichuh7qj1rsu7mqxpl5p/image-069" style="width:200px">
+    <img src="https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/t3i3guvh1dnpwu8mrvuf/image-070" style="width:200px"><br><br>
+    <img src="https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/olcvsnzpdrd5tov8dbci/image-057" style="width:400px">
+  </div>
+</div>
+<!-- Work with Us -->
+<div class="w3-container w3-center bgimg-4 w3-text-white" style="padding:30px">
+  <span class="w3-jumbo w3-hide-small">Work With Us</span><br>
+  <span class="w3-xxlarge w3-hide-large w3-hide-medium">Work With Us</span><br>
+  <span class="w3-large">With decades of experience in luxurious Tri Valley real estate, our team is here to ensure that your dreams are a reality. Let us guide you through your home buying journey, contact us today!</span><br>
+  <div class="w3-padding-32">
+    <button class="w3-btn w3-large w3-dark-grey w3-hover-light-grey" style="font-weight:900;">Book An Appointment Now</button>
+  </div>
+</div>
+<!-- Footer -->
+<footer class="w3-row-padding w3-black w3-padding-32">
+  <div class="w3-third" style="padding:50px;">
+    <h3>Julie Hansen Partnership</h3>
+    <p>An elite group of the East Bay's most talented and visionary real estate professionals believed buyers and sellers deserved more from their real estate company: more service, resources, integrity, and global reach. They believed people should expect everything when they buy or sell their homes.</p>
+  </div>
+
+  <div class="w3-third" style="padding:50px;">
+    <h5>ADDRESS</h5>
+    <p>4733 Chabot Drive #100 Pleasanton, CA 94588 ​​​​​​​​​​​Julie Hansen-Orvis | CA DRE# 00934447</p><br>
+    <h5>CONTACT INFORMATION</h5>
+    <p>(925) 553-6707
+      luxuryhomesinwc@icloud.com</p>
+  </div>
+
+  <div class="w3-third">
+    <h3>News Letter</h3>
+    <p>Subscribe to our Newsletter for latest news and updates. Stay tuned!</p>
+    <form action="">
+      <div class="fcon" style="background-color:white">
+        <input type="text" placeholder="Name" name="name" required>
+        <input type="text" placeholder="Email address" name="mail" required>
+      </div>
+      <div class="fcon">
+        <input type="submit" value="Subscribe">
+      </div>
+    </form>
+  </div>
+</footer>
+
+<!-- End page content -->
+
+<script>
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+</body>
+</html>
